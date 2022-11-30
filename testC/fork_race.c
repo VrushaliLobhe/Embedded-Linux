@@ -33,6 +33,6 @@ int main()
         perror("Errrooorrrr");
     }
 
-    printf("\n%lld\n",final_value);
+    printf("\nglobal: %lld\n",final_value);
     return 0;
 }
