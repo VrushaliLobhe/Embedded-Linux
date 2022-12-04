@@ -8,11 +8,21 @@
 
 -------------------------------------------------------------------------------------------------------------
 
-<h3>Install adxl345 library</h3>
+<h3>Install adxl345 i2c library</h3>
 
 
     sudo pip3 install adafruit-circuitpython-adxl34x
 
+------------------------------------------------------------------------------------------------------------------
+
+<h3>Install adxl345 spi library</h3>
+
+
+    sudo apt-get update
+    git clone https://github.com/nagimov/adxl345spi
+    cd adxl345spi
+    sudo make
+    sudo make install
 
 --------------------------------------------------------------------------------------------
 
